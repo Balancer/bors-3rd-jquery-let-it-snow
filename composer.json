@@ -23,7 +23,8 @@
 	"extra": {
 		"assets-presets": {
 			"jquery.let-it-snow": {
-				"jsfiles_footer": "/js/jquery.let_it_snow.min.js"
+				"jsfiles_footer": "/js/jquery.let_it_snow.min.js",
+				"white-snowflake": "/img/white-snowflake.png"
 			}
 		}
 	}
