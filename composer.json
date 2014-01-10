@@ -22,22 +22,8 @@
 
 	"extra": {
 		"assets-presets": {
-			"jquery.letitsnow": {
-				"css": "/css/jquery.cssemoticons.css",
-				"jsfiles_footer": "/js/jquery.let_it_snow.min.js",
-				"jquery_plugin": "let_it_snow"
-			},
 			"jquery.let-it-snow": {
-				"css": "/css/jquery.cssemoticons.css",
 				"jsfiles_footer": "/js/jquery.let_it_snow.min.js",
-				"jquery_plugin": "let_it_snow"
-			}
-		},
-		"assets_presets": {
-			"jquery.letitsnow2": {
-				"css": "/css/jquery.cssemoticons.css",
-				"jsfiles_footer": "/js/jquery.let_it_snow.min.js",
-				"jquery_plugin": "let_it_snow"
 			}
 		}
 	}
