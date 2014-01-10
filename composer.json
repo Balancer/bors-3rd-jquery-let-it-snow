@@ -23,7 +23,7 @@
 	"extra": {
 		"assets-presets": {
 			"jquery.let_it_snow": {
-				"jquery_plugin": "let_it_snow"
+				"jsfiles_footer": "let_it_snow"
 			}
 		}
 	}
