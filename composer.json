@@ -22,8 +22,10 @@
 
 	"extra": {
 		"assets-presets": {
-			"jquery.let_it_snow": {
-				"jsfiles_footer": "/js/jquery.let_it_snow.min.js"
+			"jquery.letitsnow": {
+				"css": "/css/jquery.cssemoticons.css",
+				"jsfiles_footer": "/js/jquery.let_it_snow.min.js",
+				"jquery_plugin": "let_it_snow.min"
 			}
 		}
 	}
