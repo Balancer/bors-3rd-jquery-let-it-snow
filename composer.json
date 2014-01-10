@@ -1,0 +1,30 @@
+{
+	"name": "balancer/bors-3rd-jquery-let-it-snow",
+	"description": "Let it Snow by Pete R.",
+	"license": "Apache",
+
+	"authors": [
+		{
+			"name": "Balancer",
+			"email": "balancer@balancer.ru"
+		}
+	],
+
+	"require": {
+		"atelierspierrot/assets-manager": "1.*"
+	},
+
+	"type": "bors-assets",
+
+    "autoload": {
+		"classmap": ["classes/"]
+    },
+
+	"extra": {
+		"assets-presets": {
+			"jquery.let_it_snow": {
+				"jquery_plugin": "let_it_snow"
+			}
+		}
+	}
+}
