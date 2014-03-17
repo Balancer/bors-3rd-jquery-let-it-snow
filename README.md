@@ -7,6 +7,10 @@ Created by [Pete R.](http://www.thepetedesign.com), Founder of [BucketListly](ht
 
 Package for B2 Framework by Balancer.
 
+Install:
+
+    composer require balancer/bors-3rd-jquery-let-it-snow=dev-master
+
 Links
 -----
 * Original repo: https://github.com/peachananr/let_it_snow
