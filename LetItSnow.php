@@ -19,7 +19,7 @@ class LetItSnow extends \B2\jQuery\Plugin
 		bors_use("$path/js/jquery.let_it_snow.min.js");
 		if(!$element)
 		{
-			\B2\jQuery::on_ready('$("body").append("<canvas class=\'snow\' width=\'100%\' height=\'100%\' style=\'position: absolute; top: 0; left: 0\'></canvas>")');
+			\B2\jQuery::on_ready('$("body").prepend("<canvas class=\'snow\' style=\'pointer-events: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; display: block\'></canvas>")');
 			$element = '"canvas.snow"';
 		}
 
