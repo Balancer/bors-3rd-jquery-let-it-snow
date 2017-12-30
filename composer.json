@@ -4,28 +4,29 @@
 	"license": "Apache",
 
 	"authors": [
-		{
-			"name": "Balancer",
-			"email": "balancer@balancer.ru"
-		}
+		{ "name": "Balancer", "email": "balancer@balancer.ru" }
 	],
 
 	"require": {
-		"atelierspierrot/assets-manager": "1.*"
+		"bors/jquery": "*",
+		"robloach/component-installer": "*"
 	},
 
-	"type": "bors-assets",
-
     "autoload": {
-		"classmap": ["classes/"]
+		"psr-4": {
+			"B2\\jQuery\\": "./"
+		}
     },
 
 	"extra": {
-		"assets-presets": {
-			"jquery.let-it-snow": {
-				"jsfiles_footer": "/js/jquery.let_it_snow.min.js",
-				"white-snowflake": "/img/white-snowflake.png"
-			}
+		"component": {
+			"name": "balancer-let-it-snow",
+			"scripts": [
+				"js/*.js"
+			]
+			"files": [
+				"img/*.png"
+			]
 		}
 	}
 }
