@@ -23,7 +23,7 @@
 			"name": "balancer-let-it-snow",
 			"scripts": [
 				"js/*.js"
-			]
+			],
 			"files": [
 				"img/*.png"
 			]
