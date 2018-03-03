@@ -8,15 +8,15 @@ class LetItSnow extends \B2\jQuery\Plugin
 	{
 		$path = '/components/balancer-let-it-snow';
 
-//		set_def($params, 'image', $path . '/img/snowflake.png');
 		set_def($params, 'image', $path . '/img/snowflake-blue-48.png');
 		set_def($params, 'size', 10);
-		set_def($params, 'count', 30);
-		set_def($params, 'windPower', 1);
+		set_def($params, 'count', 5);
 
 		\B2\jQuery::load();
+
 //		\jquery_plugin::load('let_it_snow');
 		bors_use("$path/js/jquery.let_it_snow.min.js");
+
 		if(!$element)
 		{
 			\B2\jQuery::on_ready('$("body").prepend("<canvas class=\'snow\' style=\'pointer-events: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; display: block\'></canvas>")');
